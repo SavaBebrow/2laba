@@ -40,9 +40,9 @@ public class Lab1 {
             System.out.println("Площадь треугольника: " + computeArea(point1, point2, point3));
         }
 
-        System.out.println("Расстояние от 1 до 2 точки: "+point1.distanceTo(point2));
-        System.out.println("Расстояние от 2 до 3 точки: "+point2.distanceTo(point3));
-        System.out.println("Расстояние от 3 до 1 точки: "+point3.distanceTo(point1));
+        //System.out.println("Расстояние от 1 до 2 точки: "+point1.distanceTo(point2));
+        //System.out.println("Расстояние от 2 до 3 точки: "+point2.distanceTo(point3));
+        //System.out.println("Расстояние от 3 до 1 точки: "+point3.distanceTo(point1));
     }
 
     public static double computeArea(Point3d point1, Point3d point2, Point3d point3) {
